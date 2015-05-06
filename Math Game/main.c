@@ -86,7 +86,6 @@ void play(Player *player) {
         player->loseLives = 'N';
     } else {
         player->numberOfLives--;
-        player->score--;
         player->loseLives = 'Y';
     }
 }
